@@ -35,3 +35,12 @@ html {
     width: 64px;
     height: auto;
 }
+
+
+
+@media (max-width: 760px) {
+    .list-group-item {
+        font-size: 0.8em;
+        padding:12px;
+    }
+}
