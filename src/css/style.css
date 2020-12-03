@@ -12,6 +12,12 @@ html {
     min-height: 100vh;
 }
 
+#contact {
+    height: 100vh;
+    background-image: url('../img//jeremy-bishop.jpg');
+    background-size: cover;
+}
+
 #profile {
     background-image: url('../img/profile.jpg');
     background-size: cover;
@@ -19,6 +25,15 @@ html {
     height: 100px;
     width: 100px;
 }
+
+a {
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 .svgicon {
         width: 32px;
