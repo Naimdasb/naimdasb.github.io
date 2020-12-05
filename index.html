@@ -2,194 +2,207 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Douglas Valente</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/css/style.css">
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png">
-<link rel="manifest" href="./src/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./src/favicon/site.webmanifest" />
 </head>
 
-<body class="fadein">
-    <a href="#" class="p-0 m-0">
-    <button class="btn btn-dark" id="up" ><i class="fas fa-chevron-up"></i></button>
-    </a>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg p-2" style="background-color: rgba(0, 0, 0, 0.623)">
-            <div class="container d-flex">
-                <a class="navbar-brand" href="#">Naim</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+<body>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="fadein">
+        <a href="#" class="p-0 m-0">
+            <button class="btn btn-dark" id="up">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </a>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg p-2"
+                style="background-color: rgba(0, 0, 0, 0.623)">
+                <div class="container d-flex">
+                    <a class="navbar-brand" href="#">Naim</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="home">
+                <div class="container d-flex flex-column align-items-center justify-content-center h-100">
+                    <div class="jumbotron w-100 shadow-lg rounded bg-white p-4 p-sm-5 anim">
+                        <h1 class="display-4" id="hello">H</h1>
+                        <p class="lead">
+                            My name is Douglas and I'm a Full Stack Developer.
+                        </p>
+                        <hr class="my-4" />
+                        <p>Let me introduce myself</p>
+                        <a class="btn btn-md text-white" style="background-color: #007bff" href="#about"
+                            role="button">More About Me</a>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-    </header>
-    <main>
-        <div id="home">
-            <div class="container d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="jumbotron w-100 shadow-lg rounded bg-white p-5 anim">
-                    <h1 class="display-4" id="hello">H</h1>
-                    <p class="lead">My name is Douglas and I'm a Full Stack Developer.</p>
-                    <hr class="my-4">
-                    <p>Let me introduce myself</p>
-                    <a class="btn btn-md text-white" style="background-color: #007bff" href="#about" role="button">More About Me</a>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex bg-light" id="about">
-            <div class="container d-flex flex-column align-items-center justify-content-center">
-
-
-                <h1 class="display-3 my-5">About me</h1>
-                <div class="card shadow-lg rounded mb-5 anim">
-                    <div class="card-body d-flex flex-column flex-md-row p-md-5 align-items-center">
-                        <div class="col-12 col-md-3 m-5 m-md-0 text-center">
-                            <img src="./src/img/profile.jpg" id="profile" alt="profile picture" />
+            <div class="d-flex bg-light" id="about">
+                <div class="container d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="display-3 my-5">About me</h1>
+                    <div class="card shadow-lg rounded mb-5 anim">
+                        <div class="card-body d-flex flex-column flex-md-row p-md-5 align-items-center">
+                            <div class="col-12 col-md-3 m-5 m-md-0 text-center">
+                                <img src="./src/img/profile.jpg" id="profile" alt="profile picture" />
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <p class="font-weight-light">
+                                    Hello, my name is Douglas. I'm 28 years old and from Buenos
+                                    Aires, Argentina. I'm an engineering student and I have been
+                                    programming since I was a teenager. My first programming was
+                                    Visual Basic at my high school. After those years, I started
+                                    to learn C/C++ at my university (National Technological
+                                    University, UTN FRBA from Buenos Aires, Argentina) and I
+                                    learned Java on my own. A few years ago I decided to work
+                                    with Javascript and I loved it. Nowadays almost everything
+                                    can be build with Javascript. I decided to become a full
+                                    time Javascript Developer for that reason and I'm focusing
+                                    my time with ReactJS.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-9">
-                            <p class="font-weight-light">Hello, my name is Douglas. I'm 28 years old and from Buenos
-                                Aires, Argentina. I'm an engineering student and I have been programming since I was a
-                                teenager.
-                                My first programming was Visual Basic at my high school. After those years, I started to
-                                learn C/C++ at my university (National Technological University, UTN FRBA from Buenos
-                                Aires, Argentina)
-                                and I learned Java on my own. A few years ago I decided to work with Javascript and I
-                                loved it. Nowadays almost everything can be build with Javascript.
-                                I decided to become a full time Javascript Developer for that reason and I'm focusing my
-                                time with ReactJS.
+                    </div>
+
+                    <div class="card m-5 w-100 shadow-lg rounded anim">
+                        <div class="card-body d-flex flex-column flex-md-row justify-content-around p-0 mb-sm-3">
+                            <div>
+                                <p class="lead text-center py-3">My development skills</p>
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">JavaScript</li>
+                                            <li class="list-group-item">TypeScript</li>
+                                            <li class="list-group-item">ReactJS</li>
+                                            <li class="list-group-item">React Native</li>
+                                            <li class="list-group-item">Next.js</li>
+                                            <li class="list-group-item">NodeJs</li>
+                                            <li class="list-group-item">npm</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Redux</li>
+                                            <li class="list-group-item">Redux-Saga</li>
+                                            <li class="list-group-item">Firebase</li>
+                                            <li class="list-group-item">Express Js</li>
+                                            <li class="list-group-item">MongoDB</li>
+                                            <li class="list-group-item">Firebase</li>
+                                            <li class="list-group-item">Git/Github</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">HTML</li>
+                                            <li class="list-group-item">CSS</li>
+                                            <li class="list-group-item">SASS/SCSS</li>
+                                            <li class="list-group-item">Bootstrap</li>
+                                            <li class="list-group-item">Ant Design</li>
+                                            <li class="list-group-item">Responsive Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-center mt-5 p-md-5">
+                                <div class="flex-row mb-1">
+                                    <img src="./src/img/svg/js.png" class="svgicon" alt="javascript" />
+                                    <img src="./src/img/svg/ts.png" class="svgicon" alt="typescript" />
+                                    <img src="./src/img/svg/react.png" class="svgicon" alt="reactjs" />
+                                    <img src="./src/img/svg/html.png" class="svgicon" alt="html5" />
+                                    <img src="./src/img/svg/css.png" class="svgicon" alt="css3" />
+                                </div>
+                                <div class="flex-row">
+                                    <img src="./src/img/svg/bootstrap.png" class="svgicon" alt="bootstrap" />
+                                    <img src="./src/img/svg/npm.png" class="svgicon" alt="npm" />
+                                    <img src="./src/img/svg/node.png" class="svgicon" alt="nodejs" />
+                                    <img src="./src/img/svg/git.png" class="svgicon" alt="git" />
+                                    <img src="./src/img/svg/github.png" class="svgicon" alt="github" />
+                                </div>
+                                <div class="flex-row">
+                                    <img src="./src/img/svg/sass.png" class="svgicon" alt="sass" />
+                                    <img src="./src/img/svg/responsive.png" class="svgicon" alt="responsive design" />
+                                    <img src="./src/img/svg/firebase.png" class="svgicon" alt="firebase" />
+                                    <img src="./src/img/svg/redux.png" class="svgicon" alt="redux" />
+                                    <img src="./src/img/svg/reduxSaga.png" class="svgicon2x" alt="redux-saga" />
+                                </div>
+                                <div class="flex-row">
+                                    <img src="./src/img/svg/next.js.png" class="svgicon3x" alt="next.js" />
+                                    <img src="./src/img/svg/mongoDB.png" class="svgicon3x" alt="mongodb" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card m-5 w-100 shadow-lg rounded anim">
+                        <div class="card-body p-md-5">
+                            <p class="lead">My formation</p>
+                            <p class="font-weight-light">
+                                I'm an autodidact. Our field goes very fast and you have to be
+                                up to date all the time. These are some of my resources as a
+                                developer.
+                            </p>
+                            <p>
+                                FreeCodeCamp, TreeHouse, Scrimba, Udemy, SoloLearn, W3Schools,
+                                MDN Web Docs and more.
                             </p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="card m-5 w-100 shadow-lg rounded anim">
-
-                    <div class="card-body d-flex flex-column flex-md-row justify-content-around p-0 mb-sm-3">
-                        <div>
-                            <p class="lead text-center py-3">My development skills</p>
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">JavaScript</li>
-                                        <li class="list-group-item">TypeScript</li>
-                                        <li class="list-group-item">ReactJS</li>
-                                        <li class="list-group-item">React Native</li>
-                                        <li class="list-group-item">Next.js</li>
-                                        <li class="list-group-item">NodeJs</li>
-                                        <li class="list-group-item">npm</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Redux</li>
-                                        <li class="list-group-item">Redux-Saga</li>
-                                        <li class="list-group-item">Firebase</li>
-                                        <li class="list-group-item">Express Js</li>
-                                        <li class="list-group-item">MongoDB</li>
-                                        <li class="list-group-item">Firebase</li>
-                                        <li class="list-group-item">Git/Github</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">HTML</li>
-                                        <li class="list-group-item">CSS</li>
-                                        <li class="list-group-item">SASS/SCSS</li>
-                                        <li class="list-group-item">Bootstrap</li>
-                                        <li class="list-group-item">Ant Design</li>
-                                        <li class="list-group-item">Responsive Design</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column align-items-center mt-5 p-md-5">
-                            <div class="flex-row mb-1">
-                                <img src="./src/img/svg/js.png" class="svgicon" alt="javascript"/>
-                                <img src="./src/img/svg/ts.png" class="svgicon" alt="typescript"/>
-                                <img src="./src/img/svg/react.png" class="svgicon" alt="reactjs"/>
-                                <img src="./src/img/svg/html.png" class="svgicon" alt="html5"/>
-                                <img src="./src/img/svg/css.png" class="svgicon" alt="css3"/>
-                            </div>
-                            <div class="flex-row">
-                                <img src="./src/img/svg/bootstrap.png" class="svgicon" alt="bootstrap"/>
-                                <img src="./src/img/svg/npm.png" class="svgicon" alt="npm"/>
-                                <img src="./src/img/svg/node.png" class="svgicon" alt="nodejs"/>
-                                <img src="./src/img/svg/git.png" class="svgicon" alt="git"/>
-                                <img src="./src/img/svg/github.png" class="svgicon" alt="github"/>
-                            </div>
-                            <div class="flex-row">
-                                <img src="./src/img/svg/sass.png" class="svgicon" alt="sass"/>
-                                <img src="./src/img/svg/responsive.png" class="svgicon" alt="responsive design" />
-                                <img src="./src/img/svg/firebase.png" class="svgicon" alt="firebase"/>
-                                <img src="./src/img/svg/redux.png" class="svgicon" alt="redux"/>
-                                <img src="./src/img/svg/reduxSaga.png" class="svgicon2x" alt="redux-saga"/>
-                            </div>
-                            <div class="flex-row">
-                                <img src="./src/img/svg/next.js.png" class="svgicon3x" alt="next.js"/>
-                                <img src="./src/img/svg/mongoDB.png" class="svgicon3x" alt="mongodb"/>
+            <div class="d-flex" id="contact">
+                <div
+                    class="container d-flex flex-column flex-md-row align-items-center justify-content-md-between justify-content-around">
+                    <div class="card d-flex col-md-5 shadow-lg rounded anim">
+                        <div class="card-body">
+                            <p class="lead">My Linkedin and Github Profiles</p>
+                            <div>
+                                <a href="https://www.linkedin.com/in/douglas-valente-6002481b4/" target="_blank">
+                                    <i class="fab fa-2x fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Naimdasb" target="_blank">
+                                    <i class="fab fa-2x fa-github"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-
-                </div>
-
-                <div class="card m-5 w-100 shadow-lg rounded anim">
-                    <div class="card-body p-md-5">
-                        <p class="lead">My formation</p>
-                        <p class="font-weight-light">I'm an autodidact. Our field goes very fast and you have to be up
-                            to date all the time.
-                            These are some of my resources as a developer.</p>
-                        <p>FreeCodeCamp, TreeHouse, Scrimba, Udemy, SoloLearn, W3Schools, MDN Web Docs and more.</p>
-                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="d-flex" id="contact">
-           <div class="container d-flex flex-column flex-md-row align-items-center justify-content-md-between justify-content-around">
-            
-            <div class="card d-flex col-md-5 shadow-lg rounded anim">
-                <div class="card-body">
-                    <p class="lead">My Linkedin and Github Profiles</p>
-                    <div>
-                        <a href="https://www.linkedin.com/in/douglas-valente-6002481b4/" target="_blank">
-                            <i class="fab fa-2x fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/Naimdasb" target="_blank">
-                            <i class="fab fa-2x fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </div>
-       
-    </main>
-    <footer id="footer" class="bg-dark p-3">
-        <p class="font-weight-light text-white text-center m-0">This is a footer, no rights reserved.</p>
-    </footer>
+        </main>
+        <footer id="footer" class="bg-dark p-3">
+            <p class="font-weight-light text-white text-center m-0">
+                This is a footer, no rights reserved.
+            </p>
+        </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
