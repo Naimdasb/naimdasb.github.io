@@ -2,6 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+.fadein {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.loaded {
+    opacity: 1;
+}
+
 #home {
     background-image: url('../img/simon-berger.jpg');
     height: 100vh;
@@ -69,6 +78,15 @@ a:hover {
     .list-group-item {
         font-size: 0.8em;
         padding:12px;
+    }
+}
+
+@keyframes load {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity:
     }
 }
 
