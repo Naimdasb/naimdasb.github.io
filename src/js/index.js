@@ -6,6 +6,22 @@ const renderMessage = () => !messageToRender.length ? clearInterval(myfn) : mess
 const myfn = setInterval(renderMessage, 75);
 
 
+const animate = document.querySelector('.anim');
+
+const observer = new IntersectionObserver((entries) => { 
+    entries.forEach(entry => {
+        entry.target.classList.add('move')
+    }
+)});
+
+observer.observe(animate);
+
+
+
+
+
+
+
 
 
 
