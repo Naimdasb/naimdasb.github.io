@@ -67,12 +67,16 @@ a:hover {
     left: 80%;
 }
 
-.move {
-    animation-name: move;
-    animation-duration: 0.6s;
+.anim {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: opacity 1.5s, transform 1.5s;  
 }
 
-
+.move {
+    opacity: 1;
+    transform: translateX(0);
+}
 
 @media (max-width: 760px) {
     .list-group-item {
@@ -81,22 +85,5 @@ a:hover {
     }
 }
 
-@keyframes load {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity:
-    }
-}
 
-@keyframes move {
-    from {
-        transform: translateY(-100px);
-        opacity: 0;
-     }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+

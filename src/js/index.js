@@ -15,7 +15,7 @@ function main () {
 
 window.onload = function() {
     document.body.classList.add('loaded');
-    main()
+    setTimeout(main, 1000);
 }
 
 
